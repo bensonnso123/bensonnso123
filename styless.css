@@ -1,0 +1,47 @@
+.table-container {
+    overflow-x: auto;
+  }
+.price-table {
+    border-collapse: collapse;
+    width: 100%;
+    color: black;
+  }
+  
+  .price-table th,
+  .price-table td {
+    padding: 20px;
+    text-align: center;
+    border: 1px solid black;
+  }
+  
+  .price-table th {
+    background-color: white;
+  }
+  
+  .price-table tbody td{
+    background-color: white;
+  }
+  
+  .price-table img {
+    max-width: 150px;
+    max-height: 150px;
+    display: block;
+    margin-left: auto;
+     margin-right: auto;
+  }
+
+  li{
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #333;
+    display: inline-block;
+    padding: 15px;
+    position: relative;
+}
+
+li:hover{
+    cursor: pointer;
+    background-color: #f2f2f2;
+}
+  
